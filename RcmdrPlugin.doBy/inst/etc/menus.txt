@@ -1,0 +1,10 @@
+# Rcmdr menus for the doBy package
+# Last modified: 11 December 2011 by Jonathan Lee
+
+# type    menu/item      operation/parent  label                              command/menu                activation              install?
+menu      doByMenu       topMenu           ""                                 ""                          ""                      "" 
+item      doByMenu       command           "Summary by..."                    summaryByGUI                "activeDataSetP()"      "packageAvailable('doBy')"
+item      doByMenu       command           "Order by..."                      orderByGUI                  "activeDataSetP()"      "packageAvailable('doBy')"
+item      doByMenu       command           "Split by..."                      splitByGUI                  "activeDataSetP()"      "packageAvailable('doBy')"
+item      doByMenu       command           "Sample by..."                     sampleByGUI                 "activeDataSetP()"      "packageAvailable('doBy')"
+item      topMenu        cascade           "doBy"                             doByMenu                    "activeDataSetP()"      "packageAvailable('doBy')"
