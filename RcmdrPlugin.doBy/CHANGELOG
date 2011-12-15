@@ -1,0 +1,6 @@
+0.1-0
+* Initial package
+
+0.1-1
+* Fixed 'help' buttons to point to the correct help file in all dialog boxes
+* Added URL to package description
